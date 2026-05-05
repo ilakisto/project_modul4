@@ -1,0 +1,204 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background: #514337;
+    height: 100%;
+    
+
+}
+
+
+
+.menubar{
+    position: fixed;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background: #514337;
+    width: 98vw;
+    height: 2vw;
+    padding: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1234567890;
+    
+}
+
+.option-list{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    left: 37vw;
+    text-decoration: none;
+    
+}
+
+.option-list > li > a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #ffff;
+}
+
+.tour{
+    position: absolute;
+    margin-left: 83vw;
+    border: none;
+    background: rgb(230, 230, 183);
+    border-radius: 2vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+}
+
+.fixed{
+    position: fixed;
+    width: 27.22vw;
+    z-index: 123456789;
+}
+
+.minitexts{
+    position: absolute;
+    font-size: 1.5vw;
+    margin: 25vw;
+    left: -24vw;
+    width: 17vw;
+    height: 4.79vw;
+    color: #ffff;
+    z-index: 123456789;
+}
+
+.name{
+    position: absolute;
+    font-size: 8vw;
+    margin: 20vw;
+    left: -19vw;
+    top: 29vw;
+    color: #ffff;
+    z-index: 123456789;
+}
+
+.scroll-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.s1, .s2, .s3{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    scroll-snap-stop: always;
+
+}
+
+.img1{
+    position: absolute;
+    background: rgb(78, 104, 146);
+    width: 66.67vw;
+    height: 38.61vw;
+    top: 18vw;
+    left: 35vw;
+}
+
+.aftername{
+    position: absolute;
+    font-size: 3vw;
+    margin-left: 35vw;
+    margin-top: 7vw;
+    color: #ffff;
+    width: 41.94vw;
+
+}
+
+.aboutus1{
+    position: absolute;
+    margin-top: 14vw;
+    font-size: 1.5vw;
+    margin-left: 58vw;
+    color: #ffff;
+    width: 33.33vw;
+}
+
+.aboutus2{
+    position: absolute;
+    margin-top: 21.5vw;
+    font-size: 1.5vw;
+    margin-left: 35vw;
+    color: #ffff;
+    width: 33.33vw;
+}
+
+.img2{
+    position: absolute;
+    width: 16.67vw;
+    height: 22.08vw;
+    background: #e6c4c4;
+    margin-top: 32vw;
+    margin-left: 66vw;
+}
+
+.aboutuslink{
+    position: absolute;
+    margin-top: 54vw;
+    margin-left: 66vw;
+    text-decoration: none;
+    font-size: 1.7vw;
+    color: #ffff;
+}
+
+.heading2{
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 7vw;
+    font-size: 3vw;
+    color: #ffff;
+}
+
+.img3{
+    position: absolute;
+    height: 18.26vw;
+    width: 21.18vw;
+    margin-top: 13vw;
+    margin-left: 35vw;
+    background: #e6c4c4;
+}
+
+.wheretg{
+    position: absolute;
+    font-size: 1.7vw;
+    margin-left: 35vw;
+    margin-top: 31vw;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.wheretogo{
+    position: absolute;
+    font-size: 1vw;
+    margin-left: 35vw;
+    margin-top: 33vw;
+    width: 21.18vw;
+    color: #ffff;
+}
+
+.img4{
+    position: absolute;
+    height: 20.9vw;
+    width: 16.67vw;
+    margin-top: 18vw;
+    margin-left: 70vw;
+    background: #e6c4c4;
+}
+
+.whattd{
+    position: absolute;
+    font-size: 1.7vw;
+    margin-left: 70vw;
+    margin-top: 38.7vw;
+    width: 16.67vw;
+    text-decoration: none;
+    color: #ffff;
+}
