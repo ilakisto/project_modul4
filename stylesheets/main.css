@@ -1,25 +1,73 @@
-body{
-    width: 100vw;
-    overflow-x: hidden;
-    background: #514337;
+html, body{
     height: 100%;
-    
-
+    overflow: hidden;
 }
 
+body{
+    height: 100%;
+    background: #514337;
+    display: flex;
+    flex-direction: row;
+}
 
+.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 27.22vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+}
+
+.minitexts{
+    position: absolute;
+    font-size: 1.5vw;
+    margin: 25vw;
+    left: -24vw;
+    width: 17vw;
+    height: 4.79vw;
+    color: #ffff;
+    z-index: 101;
+}
+
+.name{
+    position: absolute;
+    font-size: 8vw;
+    margin: 20vw;
+    left: -19vw;
+    top: 29vw;
+    color: #ffff;
+    z-index: 102;
+}
+main{
+    flex: 1;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    min-height: 0;
+    overflow-x: hidden;
+}
+
+main > section{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    position: relative;
+    overflow: hidden;
+}
 
 .menubar{
-    position: fixed;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     margin-left: 1vw;
     margin-right: 1vw;
     background: #514337;
-    width: 98vw;
+    width: 100%;
     height: 2vw;
     padding: 1.2vw;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1234567890;
+    align-items: center;
+
     
 }
 
@@ -49,49 +97,14 @@ body{
     font-size: 1.5vw;
 }
 
-.fixed{
-    position: fixed;
-    width: 27.22vw;
-    z-index: 123456789;
-}
 
-.minitexts{
-    position: absolute;
-    font-size: 1.5vw;
-    margin: 25vw;
-    left: -24vw;
-    width: 17vw;
-    height: 4.79vw;
-    color: #ffff;
-    z-index: 123456789;
-}
-
-.name{
-    position: absolute;
-    font-size: 8vw;
-    margin: 20vw;
-    left: -19vw;
-    top: 29vw;
-    color: #ffff;
-    z-index: 123456789;
-}
-
-.scroll-container{
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: inherit;
-}
 
 .s1, .s2, .s3{
     height: 100vh;
     scroll-snap-align: start;
     display: flex;
     scroll-snap-stop: always;
+    position: relative;
 
 }
 
@@ -100,7 +113,7 @@ body{
     background: rgb(78, 104, 146);
     width: 64.9vw;
     height: 38.61vw;
-    top: 18vw;
+    top: 14vw;
     left: 35vw;
 }
 
@@ -108,7 +121,7 @@ body{
     position: absolute;
     font-size: 3vw;
     margin-left: 35vw;
-    margin-top: 7vw;
+    margin-top: 3vw;
     color: #ffff;
     width: 41.94vw;
 
@@ -116,7 +129,7 @@ body{
 
 .aboutus1{
     position: absolute;
-    margin-top: 14vw;
+    margin-top: 10vw;
     font-size: 1.5vw;
     margin-left: 58vw;
     color: #ffff;
@@ -125,7 +138,7 @@ body{
 
 .aboutus2{
     position: absolute;
-    margin-top: 21.5vw;
+    margin-top: 17.5vw;
     font-size: 1.5vw;
     margin-left: 35vw;
     color: #ffff;
@@ -137,13 +150,13 @@ body{
     width: 16.67vw;
     height: 22.08vw;
     background: #e6c4c4;
-    margin-top: 32vw;
+    margin-top: 28vw;
     margin-left: 66vw;
 }
 
 .aboutuslink{
     position: absolute;
-    margin-top: 54vw;
+    margin-top: 50vw;
     margin-left: 66vw;
     text-decoration: none;
     font-size: 1.7vw;
@@ -153,7 +166,7 @@ body{
 .heading2{
     position: absolute;
     margin-left: 35vw;
-    margin-top: 7vw;
+    margin-top: 3vw;
     font-size: 3vw;
     color: #ffff;
 }
@@ -162,7 +175,7 @@ body{
     position: absolute;
     height: 15.26vw;
     width: 18.18vw;
-    margin-top: 12vw;
+    margin-top: 10vw;
     margin-left: 35vw;
     background: #e6c4c4;
 }
@@ -171,7 +184,7 @@ body{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 35vw;
-    margin-top: 27vw;
+    margin-top: 25vw;
     width: 18.18vw;
     text-decoration: none;
     color: #ffff;
@@ -181,7 +194,7 @@ body{
     position: absolute;
     font-size: 1vw;
     margin-left: 35vw;
-    margin-top: 29vw;
+    margin-top: 27vw;
     width: 18.18vw;
     color: #ffff;
 }
@@ -190,7 +203,7 @@ body{
     position: absolute;
     height: 19.9vw;
     width: 15.67vw;
-    margin-top: 17vw;
+    margin-top: 15vw;
     margin-left: 70vw;
     background: #e6c4c4;
 }
@@ -199,7 +212,7 @@ body{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 70vw;
-    margin-top: 36.7vw;
+    margin-top: 34.7vw;
     width: 15.67vw;
     text-decoration: none;
     color: #ffff;
@@ -209,7 +222,7 @@ body{
     position: absolute;
     font-size: 1vw;
     margin-left: 70vw;
-    margin-top: 38.5vw;
+    margin-top: 36.5vw;
     width: 15.67vw;
     color: #ffff;
 }
