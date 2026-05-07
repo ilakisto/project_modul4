@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
     background: #514337;
     height: 100%;
@@ -81,9 +81,10 @@ body{
     right: 0;
     top: 0;
     height: 100vh;
+    width: 100%;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+    scroll-behavior: inherit;
 }
 
 .s1, .s2, .s3{
@@ -97,7 +98,7 @@ body{
 .img1{
     position: absolute;
     background: rgb(78, 104, 146);
-    width: 66.67vw;
+    width: 64.9vw;
     height: 38.61vw;
     top: 18vw;
     left: 35vw;
@@ -159,9 +160,9 @@ body{
 
 .img3{
     position: absolute;
-    height: 18.26vw;
-    width: 21.18vw;
-    margin-top: 13vw;
+    height: 15.26vw;
+    width: 18.18vw;
+    margin-top: 12vw;
     margin-left: 35vw;
     background: #e6c4c4;
 }
@@ -170,7 +171,7 @@ body{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 35vw;
-    margin-top: 31vw;
+    margin-top: 27vw;
     text-decoration: none;
     color: #ffff;
 }
@@ -179,16 +180,16 @@ body{
     position: absolute;
     font-size: 1vw;
     margin-left: 35vw;
-    margin-top: 33vw;
-    width: 21.18vw;
+    margin-top: 29vw;
+    width: 18.18vw;
     color: #ffff;
 }
 
 .img4{
     position: absolute;
-    height: 20.9vw;
-    width: 16.67vw;
-    margin-top: 18vw;
+    height: 19.9vw;
+    width: 15.67vw;
+    margin-top: 17vw;
     margin-left: 70vw;
     background: #e6c4c4;
 }
@@ -197,8 +198,58 @@ body{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 70vw;
-    margin-top: 38.7vw;
-    width: 16.67vw;
+    margin-top: 36.7vw;
+    width: 15.67vw;
     text-decoration: none;
     color: #ffff;
+}
+
+.whattodo{
+    position: absolute;
+    font-size: 1vw;
+    margin-left: 70vw;
+    margin-top: 38.5vw;
+    width: 15.67vw;
+    color: #ffff;
+}
+
+.img5{
+    position: absolute;
+    height: 14.14vw;
+    width: 21.94vw;
+    margin-top: 35vw;
+    margin-left: 42vw;
+    background: #e6c4c4;
+}
+
+.wherete{
+    position: absolute;
+    font-size: 1.7vw;
+    margin-left: 42vw;
+    margin-top: 49vw;
+    width: 21.94vw;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.wheretoeat{
+    position: absolute;
+    font-size: 1vw;
+    margin-left: 42vw;
+    margin-top: 51vw;
+    width: 21.94vw;
+    color: #ffff;
+}
+
+.basement{
+    position: absolute;
+    width: 100%;
+    margin-top: 65vw;
+}
+
+.footerimg{
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+    background: #6e0e0e;
 }
