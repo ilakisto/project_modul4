@@ -172,6 +172,7 @@ body{
     font-size: 1.7vw;
     margin-left: 35vw;
     margin-top: 27vw;
+    width: 18.18vw;
     text-decoration: none;
     color: #ffff;
 }
@@ -239,6 +240,15 @@ body{
     margin-top: 51vw;
     width: 21.94vw;
     color: #ffff;
+}
+
+.wg, .wd, .we{
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.wg:hover, .wd:hover, .we:hover{
+    transform: scale(1.05);
 }
 
 .basement{
