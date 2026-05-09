@@ -109,14 +109,39 @@ main > section{
 
 }
 
+
 .img1{
     position: absolute;
     background: rgb(78, 104, 146);
     width: 64.9vw;
     height: 38.61vw;
-    top: 14vw;
+    top: 13vw;
     left: 35vw;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    overflow: hidden;
 }
+
+.grid-cell {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.grid-cell img {
+    position: absolute;
+    width: 1000%;
+    height: 600%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.grid-cell.active img {
+    transform: scale(1.7);
+}
+
 
 .aftername{
     position: absolute;
