@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 body{
@@ -9,40 +10,46 @@ body{
     display: flex;
 }
 
+.fs{
+    position: absolute;
+    width: 100%;
+}
+
+
 .heading3{
     position: relative;
     font-size: 8vw;
     margin-top: 48.5vw;
-    margin-left: -81.5vw;
+    margin-left: 0.5vw;
     width: 90vw;
     color: #ffff;
 }
 
 
-
 .bigimg1{
-    position: relative;
-    margin-top: 13vw;
-    margin-left: -47vw;
+    position: absolute;
+    margin-top: -43vw;
+    margin-left: 35vw;
     width: 30.28vw;
     height: 22.08vw;
     background: rgb(168, 228, 138);
 }
 
 .bigimg2{
-    position: relative;
-    margin-left: -10vw;
-    margin-top: 20vw;
+    position: absolute;
+    margin-left: 72.5vw;
+    margin-top: -34.5vw;
     width: 27.29vw;
     height: 33.19vw;
     background: rgb(168, 228, 138);
 }
 
-/* .minitexts3{
+.minitexts3{
     position: absolute;
     display: flex;
     color: #ffff;
-    margin-top: 30vw;
-    margin-left: -81.5vw;
+    margin-top: -30vw;
+    margin-left: 0.5vw;
+    width: 17vw;
     font-size: 1.5vw;
-} */
+}
