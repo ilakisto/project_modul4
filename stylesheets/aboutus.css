@@ -1,0 +1,112 @@
+.fs, .ss, .st, .sf{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.heading2{
+    position: relative;
+    color: #fff;
+    font-size: 8vw;
+    margin-top: 49vw;
+    margin-left: 0.5vw;
+    width: 50vw;
+}
+
+.minitexts2{
+    position: absolute;
+    display: flex;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-top: -30vw;
+    margin-left: 0.5vw;
+    width: 16vw;
+    
+}
+
+
+.bigimg3{
+    position: absolute;
+    width: 54.51vw;
+    height: 38.61vw;
+    margin-top: -40vw;
+    margin-left: 45.3vw;
+    background: #c1ceff;
+}
+
+p{
+    position: absolute;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+h2{
+    position: absolute;
+    color: #fff;
+    font-size: 3vw;
+}
+
+.img6{
+    position: absolute;
+    width: 25vw;
+    height: 27.57vw;
+    margin-top: 65vw;
+    margin-left: 7vw;
+    background: #c1ceff;
+}
+
+.ss h2{
+    margin-top: 65vw;
+    margin-left: 36vw;
+    width: 50vw;
+    
+}
+
+.ss p{
+    margin-top: 72.5vw;
+    margin-left: 52vw;
+    width: 30vw;
+}
+
+.sf{
+    margin-top: 20vw;
+}
+
+.st h2{
+    margin-top: 97vw;
+    margin-left: 7vw;
+    width: 60vw;
+}
+
+.st p{
+    margin-top: 104.5vw;
+    margin-left: 7vw;
+    width: 37vw;
+}
+
+.img7{
+    position: absolute;
+    width: 25vw;
+    height: 22.08vw;
+    margin-top: 97vw;
+    margin-left: 68vw;
+    background: #c1ceff;
+}
+
+.img8{
+    position: absolute;
+    width: 18.13vw;
+    height: 22.08vw;
+    margin-top: 117vw;
+    margin-left: 45vw;
+    background: #c1ceff;
+}
+
+.st h4{
+    position: absolute;
+    color: #fff;
+    font-size: 1.2vw;
+    margin-top: 135.7vw;
+    margin-left: 68vw;
+    width: 14.3vw;
+}
