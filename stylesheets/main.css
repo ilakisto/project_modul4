@@ -73,6 +73,7 @@ main > section{
     
 }
 
+
 .option-list{
     position: absolute;
     display: flex;
@@ -88,6 +89,32 @@ main > section{
     font-size: 1.5vw;
     color: #ffff;
 }
+
+.activo{
+    border-bottom: 0.2vw solid white;
+    padding-bottom: 0.2vw;
+    color: #ffff;
+    border-radius: 0.1vw;    
+}
+
+.option-list > li > a.activo{
+    border-bottom: 0.2vw solid white;
+    padding-bottom: 0.2vw;
+    transition: 0.2s;
+    border-radius: 0.1vw;
+
+}
+
+.all:hover{
+    border-bottom: 0.2vw solid white;
+    padding-bottom: 0.2vw;
+    transition: 0.2s;
+    border-radius: 0.1vw;
+
+}
+
+
+
 
 .tour{
     position: absolute;
