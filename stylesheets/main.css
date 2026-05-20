@@ -5,10 +5,11 @@ html, body{
 
 body{
     height: 100%;
-    background: #514337;
+    background: #fff;
     display: flex;
     flex-direction: row;
 }
+
 
 .fixed{
     position: fixed;
@@ -25,10 +26,12 @@ body{
     font-size: 1.5vw;
     margin: 25vw;
     left: -24vw;
-    width: 17vw;
+    width: 20vw;
     height: 4.79vw;
-    color: #ffff;
+    color: #37271A;
     z-index: 101;
+    font-family: "Inter_Medium";
+    line-height: 1.7vw;
 }
 
 .name{
@@ -37,7 +40,7 @@ body{
     margin: 20vw;
     left: -19vw;
     top: 29vw;
-    color: #ffff;
+    color: #37271A;
     z-index: 102;
 }
 main{
@@ -63,7 +66,7 @@ main > section{
     justify-content: space-between;
     margin-left: 1vw;
     margin-right: 1vw;
-    background: #514337;
+    background: #fff;
     width: 100%;
     height: 2vw;
     padding: 1.2vw;
@@ -78,27 +81,29 @@ main > section{
     position: absolute;
     display: flex;
     justify-content: space-between;
-    gap: 1vw;
-    left: 37vw;
+    gap: 5vw;
+    left: 27.5vw;
     text-decoration: none;
+    font-family: "Inter_Regular";
+
     
 }
 
 .option-list > li > a{
     text-decoration: none;
-    font-size: 1.5vw;
-    color: #ffff;
+    font-size: 1.3vw;
+    color: #37271A;
 }
 
 .activo{
-    border-bottom: 0.2vw solid white;
+    border-bottom: 0.2vw solid #37271A;
     padding-bottom: 0.2vw;
-    color: #ffff;
+    color: #37271A;
     border-radius: 0.1vw;    
 }
 
 .option-list > li > a.activo{
-    border-bottom: 0.2vw solid white;
+    border-bottom: 0.2vw solid #37271A;
     padding-bottom: 0.2vw;
     transition: 0.2s;
     border-radius: 0.1vw;
@@ -106,7 +111,7 @@ main > section{
 }
 
 .all:hover{
-    border-bottom: 0.2vw solid white;
+    border-bottom: 0.2vw solid #37271A;
     padding-bottom: 0.2vw;
     transition: 0.2s;
     border-radius: 0.1vw;
@@ -120,11 +125,11 @@ main > section{
     position: absolute;
     margin-left: 83vw;
     border: none;
-    background: rgb(230, 230, 183);
-    border-radius: 2vw;
+    background: #37271A;
     height: 2.5vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     width: 14vw;
+    color: #fff;
 }
 
 
@@ -174,30 +179,33 @@ main > section{
 
 .aftername{
     position: absolute;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-left: 35vw;
     margin-top: 3vw;
-    color: #ffff;
+    color: #37271A;
     width: 41.94vw;
-
+    line-height: 2vw;
 }
 
 .aboutus1{
     position: absolute;
-    margin-top: 10vw;
-    font-size: 1.5vw;
+    margin-top: 9.1vw;
+    font-size: 1.3vw;
     margin-left: 58vw;
-    color: #ffff;
-    width: 33.33vw;
+    color: #37271A;
+    width: 33vw;
+    line-height: 1.7vw;
 }
 
 .aboutus2{
     position: absolute;
     margin-top: 17.5vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-left: 35vw;
-    color: #ffff;
-    width: 33.33vw;
+    color: #37271A;
+    width: 32vw;
+    line-height: 1.7vw;
+
 }
 
 .abs{
@@ -216,18 +224,20 @@ main > section{
     width: 16.67vw;
     height: 22.08vw;
     background: #e6c4c4;
-    margin-top: 28vw;
+    margin-top: 29vw;
     margin-left: 66vw;
 }
 
 .aboutuslink{
     position: absolute;
-    margin-top: 50vw;
+    margin-top: 51vw;
     margin-left: 66vw;
     text-decoration: none;
     font-size: 1.7vw;
-    color: #ffff;
+    color: #37271A;
     width: 16.67vw;
+    font-family: "Inter_SemiBold";
+
 }
 
 .heading2{
@@ -235,63 +245,75 @@ main > section{
     margin-left: 35vw;
     margin-top: 3vw;
     font-size: 3vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .img3{
     position: absolute;
-    height: 15.26vw;
-    width: 18.18vw;
+    height: 14vw;
+    width: 21.18vw;
     margin-top: 10vw;
     margin-left: 35vw;
     background: #e6c4c4;
+    overflow: hidden;
+}
+
+.img3 img{
+    width: 100%;
 }
 
 .wheretg{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 35vw;
-    margin-top: 25vw;
+    margin-top: 24vw;
     width: 18.18vw;
     text-decoration: none;
-    color: #ffff;
+    color: #37271A;
+    font-family: "Inter_SemiBold";
 }
 
 .wheretogo{
     position: absolute;
     font-size: 1vw;
     margin-left: 35vw;
-    margin-top: 27vw;
-    width: 18.18vw;
-    color: #ffff;
+    margin-top: 26vw;
+    width: 21.18vw;
+    color: #37271A;
+
 }
 
 .img4{
     position: absolute;
     height: 19.9vw;
-    width: 15.67vw;
+    width: 16.67vw;
     margin-top: 15vw;
     margin-left: 70vw;
     background: #e6c4c4;
+    overflow: hidden;
+}
+.img4 img{
+    width: 100%;
 }
 
 .whattd{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 70vw;
-    margin-top: 34.7vw;
-    width: 15.67vw;
+    margin-top: 34.9vw;
+    width: 16.67vw;
     text-decoration: none;
-    color: #ffff;
+    color: #37271A;
+    font-family: "Inter_SemiBold";
 }
 
 .whattodo{
     position: absolute;
     font-size: 1vw;
     margin-left: 70vw;
-    margin-top: 36.5vw;
-    width: 15.67vw;
-    color: #ffff;
+    margin-top: 36.8vw;
+    width: 16.67vw;
+    color: #37271A;
 }
 
 .img5{
@@ -301,25 +323,30 @@ main > section{
     margin-top: 35vw;
     margin-left: 42vw;
     background: #e6c4c4;
+    overflow: hidden;
+}
+.img5 img{
+    width: 100%;
 }
 
 .wherete{
     position: absolute;
     font-size: 1.7vw;
     margin-left: 42vw;
-    margin-top: 49vw;
+    margin-top: 49.2vw;
     width: 21.94vw;
     text-decoration: none;
-    color: #ffff;
+    color: #37271A;
+    font-family: "Inter_SemiBold";
 }
 
 .wheretoeat{
     position: absolute;
     font-size: 1vw;
     margin-left: 42vw;
-    margin-top: 51vw;
+    margin-top: 51.3vw;
     width: 21.94vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .wg, .wd, .we{
@@ -331,15 +358,3 @@ main > section{
     transform: scale(1.05);
 }
 
-/* .basement{
-    position: absolute;
-    width: 100%;
-    margin-top: 65vw;
-}
-
-.footerimg{
-    position: absolute;
-    width: 100%;
-    height: 30vw;
-    background: #6e0e0e;
-} */

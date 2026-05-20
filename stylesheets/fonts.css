@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Inter_Regular";
+    src: url("../fonts/Inter_Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+     font-family: "Inter_Regular";
+}
+
+@font-face {
+    font-family: "Inter_SemiBold";
+    src: url("../fonts/Inter_SemiBold.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Inter_SemiBold";
+}
+
+@font-face {
+    font-family: "Inter_Medium";
+    src: url("../fonts/Inter_Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+}

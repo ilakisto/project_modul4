@@ -6,7 +6,7 @@ html, body{
 
 body{
     height: 100%;
-    background: #514337;
+    background: #ffff;
     display: flex;
 }
 
@@ -23,7 +23,7 @@ body{
     margin-top: 48.5vw;
     margin-left: 0.5vw;
     width: 90vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 
@@ -48,7 +48,7 @@ body{
 .minitexts3{
     position: absolute;
     display: flex;
-    color: #ffff;
+    color: #37271A;
     margin-top: -30vw;
     margin-left: 0.5vw;
     width: 17vw;
@@ -117,7 +117,7 @@ body{
     bottom: 4vw;
     left: 1vw;
     font-size: 2vw;
-    color: #ffff;
+    color: #37271A;
     margin: 0;
     z-index: 2;
 }
@@ -128,7 +128,7 @@ body{
     left: 1vw;
     width: 90%;
     font-size: 1vw;
-    color: #ffff;
+    color: #37271A;
     text-decoration: none;
     margin: 0;
     z-index: 2;
@@ -178,7 +178,7 @@ body{
 .footer h1{
     font-size: 8vw;
     margin-top: 11.3vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .footer img{
@@ -194,19 +194,22 @@ body{
     font-size: 1vw;
     margin-top: 1.5vw;
     margin-left: 38vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .abus, .wtg, .te, .td{
     position: absolute;
     text-decoration: none;
-    color: #ffff;
-    font-size: 1.5vw;
+    color: #37271A;
+    font-size: 1.3vw;
     margin-left: 38vw;
+    font-family: "Inter_Regular";
+    line-height: 1.7vw;
 }
 
 .abus{
     margin-top: 3vw;
+
 }
 
 .wtg{
@@ -226,12 +229,12 @@ body{
     font-size: 1vw;
     margin-top: 1.5vw;
     margin-left: 57vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .me{
     position: absolute;
-    color: #ffff;
+    color: #37271A;
     font-size: 1.5vw;
     margin-left: 57vw;
     margin-top: 3vw;
@@ -242,12 +245,12 @@ body{
     font-size: 1vw;
     margin-top: 7vw;
     margin-left: 57vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .mail{
     position: absolute;
-    color: #ffff;
+    color: #37271A;
     font-size: 1.5vw;
     margin-left: 57vw;
     margin-top: 8.5vw;
@@ -258,14 +261,14 @@ body{
     font-size: 1vw;
     margin-top: 1.5vw;
     margin-left: 80vw;
-    color: #ffff;
+    color: #37271A;
 }
 
 .poff{
     position: absolute;
     margin-left: 80vw;
     margin-top: 3vw;
-    color: #ffff;
+    color: #37271A;
     width: 13vw;
     line-height: 1.8vw;
     font-size: 1.5vw;
