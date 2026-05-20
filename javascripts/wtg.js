@@ -15,8 +15,8 @@ carts.forEach(cart =>{
             c.style.width = '18.13vw';
             c.style.height = '22.08vw';
         });
-        carts[0].style.width = '28.06vw';
-        carts[0].style.height = '35.14vw';
+        // carts[0].style.width = '28.06vw';
+        // carts[0].style.height = '35.14vw';
     });
 });
 
