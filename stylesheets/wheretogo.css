@@ -61,8 +61,10 @@ body{
 .carts{
     position: absolute;
     overflow: hidden;
-    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1), height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1), height 0.6s cubic-bezier(0.16, 1, 0.3, 1)  ;
     cursor: pointer;
+    transition: filter 0.5 ease-in-out; 
+    transform-origin: center center;
 }
 
 .carts a{
@@ -78,16 +80,17 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 
 .first{
     position: absolute;
     width: 18.13vw;
     height: 22.08vw;
-    background: rgb(35, 61, 21);
-    margin-top: 65vw;
-    margin-left: 4vw;
+    margin-top: 75vw;
+    margin-left: 6vw;
     text-decoration: none;
+
 }
 
 .sec{
@@ -95,22 +98,25 @@ body{
     width: 18.13vw;
     height: 22.08vw;
     margin-top: 75vw;
-    margin-left: 35vw;
-    background: rgb(35, 61, 21);
+    margin-left: 37vw;
 }
 
 .third{
     position: absolute;
     width: 18.13vw;
     height: 22.08vw;
-    margin-top: 85vw;
+    margin-top: 75vw;
     margin-left: 68vw;
-    background: rgb(35, 61, 21);
+}
+
+.carts:hover img{
+    filter: blur(0.2vw);
 }
 
 .carts:hover{
     width: 28.06vw;
     height: 35.14vw;
+    transform: translate(-3vw, -5vw);
     
 }
 
@@ -153,6 +159,10 @@ body{
     transform: translateY(0);
 }
 
+.st{
+    margin-top: -5vw;
+}
+
 .book{
     position: absolute;
     width: 100%;
@@ -180,9 +190,14 @@ body{
     width: 18.96vw;
     height: 3.75vw;
     font-size: 1.5vw;
-    background: #251a13;
-    color: #ffff;
+    background: #ffff;
+    color: #37271A;
     z-index: 201;
+}
+
+.book > button > a{
+    text-decoration: none;
+    color: #37271A;
 }
 
 .footer{

@@ -148,9 +148,14 @@
     width: 18.96vw;
     height: 3.75vw;
     font-size: 1.5vw;
-    background: #251a13;
-    color: #ffff;
+    background: #ffff;
+    color: #37271A;
     z-index: 201;
+}
+
+.book > button > a{
+    text-decoration: none;
+    color: #37271A;
 }
 
 .footer{
@@ -181,6 +186,7 @@
     margin-top: 1.5vw;
     margin-left: 38vw;
     color: #37271A;
+    width: 15vw;
 }
 
 .abus, .wtg, .te, .td{
@@ -191,6 +197,7 @@
     margin-left: 38vw;
     font-family: "Inter_Regular";
     line-height: 1.7vw;
+    width: 15vw;
 }
 
 .abus{
@@ -216,6 +223,7 @@
     margin-top: 1.5vw;
     margin-left: 57vw;
     color: #37271A;
+    width: 15vw;
 }
 
 .me{
@@ -224,6 +232,7 @@
     font-size: 1.3vw;
     margin-left: 57vw;
     margin-top: 3vw;
+    width: 15vw;
 }
 
 .contacts{
@@ -232,6 +241,7 @@
     margin-top: 7vw;
     margin-left: 57vw;
     color: #37271A;
+    width: 15vw;
 }
 
 .mail{
@@ -240,6 +250,7 @@
     font-size: 1.3vw;
     margin-left: 57vw;
     margin-top: 8.5vw;
+    width: 15vw;
 }
 
 .cooperation{
@@ -248,6 +259,7 @@
     margin-top: 1.5vw;
     margin-left: 80vw;
     color: #37271A;
+    width: 15vw;
 }
 
 .poff{
