@@ -1,0 +1,314 @@
+.section1, .section2, .section3, .section4{
+    width: 100%;
+    position: absolute;
+}
+
+.section1 h1{
+    position: absolute;
+    color: #37271A;
+    font-size: 8vw;
+    margin-top: 49vw;
+    margin-left: 0.5vw;
+    width: 20vw;
+}
+
+.section1 p{
+    position: absolute;
+    display: flex;
+    color: #37271A;
+    font-size: 1.5vw;
+    margin-top: 27vw;
+    margin-left: 0.5vw;
+    width: 28vw;
+    font-family: "Inter_Regular";
+    line-height: 1.7vw;
+}
+
+.section1 img{
+    position: absolute;
+    margin-top: 17.5vw;
+    margin-left: 54.2vw;
+    width: 45.63vw;
+    height: 38.61vw;
+    background: #37271A;
+}
+
+.h21{
+    position: absolute;
+    color: #37271A;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    margin-top: 70vw;
+    margin-left: 6vw;
+    width: 27vw;
+}
+
+.h22{
+    position: absolute;
+    color: #37271A;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    margin-top: 70vw;
+    margin-left: 67vw;
+    width: 27vw;
+}
+
+.fimg{
+    position: absolute;
+    margin-top: 77.3vw;
+    margin-left: 40.2vw;
+    width: 21.94vw;
+    height: 24.58vw;
+    background: #224b2e;
+}
+
+.section4{
+    margin-top: 150vw;
+}
+
+.simg{
+    position: absolute;
+    margin-top: 102.7vw;
+    margin-left: 23.5vw;
+    width: 16.67vw;
+    height: 13.68vw;
+    background: #224b2e;
+}
+
+.timg{
+    position: absolute;
+    margin-top: 85.5vw;
+    margin-left: 7vw;
+    width: 16.67vw;
+    height: 16.39vw;
+    background: #224b2e;
+}
+
+.foimg{
+    position: absolute;
+    margin-top: 102.7vw;
+    margin-left: 62.2vw;
+    width: 11.39vw;
+    height: 15.21vw;
+    background: #224b2e;
+}
+
+.fiimg{
+    position: absolute;
+    margin-top: 90.1vw;
+    margin-left: 73.5vw;
+    width: 16.67vw;
+    height: 11.74vw;
+    background: #224b2e;
+}
+
+.section3 h2{
+    position: absolute;
+    color: #37271A;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    margin-top: 127vw;
+    margin-left: 6vw;
+    width: 37vw;
+}
+
+.minitex{
+    position: absolute;
+    display: flex;
+    color: #37271A;
+    font-size: 1.5vw;
+    margin-top: 131vw;
+    margin-left: 6vw;
+    width: 32vw;
+    font-family: "Inter_Regular";
+    line-height: 1.7vw;
+}
+
+.home1{
+    position: absolute;
+    margin-top: 142vw;
+    margin-left: 35vw;
+    width: 38.61vw;
+    height: 36.32vw;
+}
+
+.small1{
+    position: absolute;
+    margin-top: 142vw;
+    margin-left: 75vw;
+    width: 12vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price1{
+    position: absolute;
+    margin-top: 146vw;
+    margin-left: 75vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+.home2{
+    position: absolute;
+    margin-top: 182vw;
+    margin-left: 6vw;
+    width: 40.9vw;
+    height: 36.32vw;
+}
+
+.small2{
+    position: absolute;
+    margin-top: 182.1vw;
+    margin-left: 48vw;
+    width: 15vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price2{
+    position: absolute;
+    margin-top: 186vw;
+    margin-left: 48vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+.home3{
+    position: absolute;
+    margin-top: 222vw;
+    margin-left: 45vw;
+    width: 45.35vw;
+    height: 43.61vw;
+}
+
+.small3{
+    position: absolute;
+    margin-top: 222.3vw;
+    margin-left: 32vw;
+    width: 11.5vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price3{
+    position: absolute;
+    margin-top: 226vw;
+    margin-left: 32vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+
+.small11{
+    position: absolute;
+    margin-top: 142vw;
+    margin-left: 75vw;
+    width: 15vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price11{
+    position: absolute;
+    margin-top: 146vw;
+    margin-left: 75vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+.small22{
+    position: absolute;
+    margin-top: 182.1vw;
+    margin-left: 48vw;
+    width: 18vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price22{
+    position: absolute;
+    margin-top: 186vw;
+    margin-left: 48vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+
+.small33{
+    position: absolute;
+    margin-top: 222.3vw;
+    margin-left: 29vw;
+    width: 16vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price33{
+    position: absolute;
+    margin-top: 226vw;
+    margin-left: 29vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+.small111{
+    position: absolute;
+    margin-top: 142vw;
+    margin-left: 75vw;
+    width: 17vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price111{
+    position: absolute;
+    margin-top: 146vw;
+    margin-left: 75vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+.small222{
+    position: absolute;
+    margin-top: 182.1vw;
+    margin-left: 48vw;
+    width: 17.5vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price222{
+    position: absolute;
+    margin-top: 186vw;
+    margin-left: 48vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
+
+
+.small333{
+    position: absolute;
+    margin-top: 222.3vw;
+    margin-left: 32vw;
+    width: 11.5vw;
+    font-family: "Inter_Regular";
+    line-height: 1.5vw;
+}
+
+.price333{
+    position: absolute;
+    margin-top: 226vw;
+    margin-left: 32vw;
+    width: 12vw;
+    font-family: "Inter_Medium";
+    line-height: 1.5vw;
+}
