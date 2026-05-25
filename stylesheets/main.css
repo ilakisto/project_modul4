@@ -154,7 +154,7 @@ main > section{
     background: rgb(78, 104, 146);
     width: 64.9vw;
     height: 38.61vw;
-    top: 13vw;
+    top: 13.5vw;
     left: 35vw;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
