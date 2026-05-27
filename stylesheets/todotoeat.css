@@ -1,0 +1,102 @@
+.fp, .sp, .tp{
+    position: absolute;
+    width: 100%;
+} 
+
+.fp h1{
+    position: absolute;
+    font-size: 8vw;
+    margin-top: 48.7vw;
+    margin-left: 0.5vw;
+    width: 90vw;
+    color: #37271A;
+}
+
+.fp p{
+    position: absolute;
+    color: #37271A;
+    margin-top: 26.5vw;
+    margin-left: 0.5vw;
+    width: 29vw;
+    font-size: 1.5vw;
+    font-family: "Inter_Medium";
+    line-height: 1.7vw;
+}
+
+.img50{
+    position: absolute;
+    width: 33.33vw;
+    height: 33.13vw;
+    margin-top: 7vw;
+    margin-left: 39vw;
+}
+
+.img51{
+    position: absolute;
+    width: 18.19vw;
+    height: 22.08vw;
+    margin-top: 34.4vw;
+    margin-left: 81.6vw;
+}
+
+.bathhouse{
+    position: absolute;
+    width: 16.67vw;
+    height: 19.72vw;
+    margin-top: 70vw;
+    margin-left: 8vw;
+}
+
+.bathhouse1{
+    position: absolute;
+    margin-top: 90vw;
+    margin-left: 8vw;
+    font-size: 1.5vw;
+    color: #37271A;
+    font-family: "Inter_SemiBold";
+}
+
+.fishing{
+    position: absolute;
+    width: 27.22vw;
+    height: 15.69vw;
+    margin-top: 74vw;
+    margin-left: 35vw;
+}
+
+.fishing1{
+    position: absolute;
+    margin-top: 90vw;
+    margin-left: 35vw;
+    font-size: 1.5vw;
+    color: #37271A;
+    font-family: "Inter_SemiBold";
+}
+
+.vegetables{
+    position: absolute;
+    width: 18.19vw;
+    height: 12.92vw;
+    margin-top: 77vw;
+    margin-left: 73vw;
+}
+
+.vegetables1{
+    position: absolute;
+    margin-top: 90vw;
+    margin-left: 73vw;
+    font-size: 1.5vw;
+    color: #37271A;
+    width: 13vw;
+    font-family: "Inter_SemiBold";
+}
+
+.bathhous, .fishin, .vegetable{
+    transition: transform 0.5s ease;
+    /* overflow: hidden; */
+}
+
+.bathhous:hover, .fishin:hover, .vegetable:hover{
+    transform: scale(1.5);
+    transform: translate(2vw, 4vw);
+}

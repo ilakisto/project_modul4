@@ -54,6 +54,14 @@ links.forEach(function(link){
 
 
 
+let startDate = document.querySelector(".there");
+let endDate = document.querySelector(".back");
+startDate.addEventListener('change', function(){
+endDate.min = startDate.value;
+  if (endDate.value < startDate.value) {
+    endDate.value = '';
+  }
+});
 
 
 

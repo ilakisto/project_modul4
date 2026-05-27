@@ -400,20 +400,28 @@ main > section{
     position: absolute;
     margin-top: 35vw;
     margin-left: 15vw;
-    height: 2.5vw;
-    width: 13vw;
+    height: 2.7vw;
+    width: 13.3vw;
     color: #fff;
     background: #37271A;
+    border: none;
+    
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+    }
 
 .back{
     position: absolute;
     margin-top: 35vw;
     margin-left: 30vw;
-    height: 2.5vw;
-    width: 13vw;
+    height: 2.7vw;
+    width: 13.3vw;
     color: #fff;
     background: #37271A;
+    border: none;
 }
 
 .sect2 a{
@@ -460,7 +468,6 @@ main > section{
 
 .sec404{
     position: absolute;
-    height: 90vw;
     width: 100%;
 }
 
@@ -494,4 +501,11 @@ main > section{
     font-family: "Inter_SemiBold";
     z-index: 101;
     color: #fff;
+}
+
+
+.sec4044{
+    position: absolute;
+    margin-top: -85vw;
+    
 }
