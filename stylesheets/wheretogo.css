@@ -65,6 +65,7 @@ body{
     cursor: pointer;
     transition: filter 0.5 ease-in-out; 
     transform-origin: center center;
+    transition: 0.5s;
 }
 
 .carts a{
@@ -117,7 +118,7 @@ body{
     width: 28.06vw;
     height: 35.14vw;
     transform: translate(-3vw, -5vw);
-    
+    transition: 0.5s;
 }
 
 .carts:hover h3{
