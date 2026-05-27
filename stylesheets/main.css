@@ -433,6 +433,21 @@ main > section{
     background: #37271A;
 }
 
+.theree{
+    position: absolute;
+    margin-top: 33.5vw;
+    margin-left: 15vw;
+    color: #37271A;
+    font-size: 1vw;
+}
+
+.backk{
+    position: absolute;
+    margin-top: 33.5vw;
+    margin-left: 30vw;
+    color: #37271A;
+    font-size: 1vw;
+}
 
 
 
