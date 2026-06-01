@@ -130,6 +130,7 @@
     margin-left: 35vw;
     width: 38.61vw;
     height: 36.32vw;
+     object-fit: cover;
 }
 
 .small1{
@@ -311,4 +312,25 @@
     width: 12vw;
     font-family: "Inter_Medium";
     line-height: 1.5vw;
+}
+
+.homes1{
+    position: absolute;
+    /* overflow: hidden;
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1), height 0.6s cubic-bezier(0.16, 1, 0.3, 1)  ; */
+    cursor: pointer;
+    /* transition: filter 0.5 ease-in-out;  */
+    transition: 0.5s;
+}
+
+.homes1:hover{
+    /* width: 28.06vw;
+    height: 35.14vw; */
+    transform: translate(-7vw, 0vw);
+    transition: 0.5s;
+}
+
+.hoem1:hover{
+    transform: scale(2);
+
 }
