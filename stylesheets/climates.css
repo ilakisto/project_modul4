@@ -130,7 +130,7 @@
     margin-left: 35vw;
     width: 38.61vw;
     height: 36.32vw;
-     object-fit: cover;
+    overflow: hidden;
 }
 
 .small1{
@@ -157,6 +157,7 @@
     margin-left: 6vw;
     width: 40.9vw;
     height: 36.32vw;
+    overflow: hidden;
 }
 
 .small2{
@@ -183,6 +184,7 @@
     margin-left: 45vw;
     width: 45.35vw;
     height: 43.61vw;
+    overflow: hidden;
 }
 
 .small3{
@@ -201,6 +203,13 @@
     width: 12vw;
     font-family: "Inter_Medium";
     line-height: 1.5vw;
+}
+
+.home1 img, .home2 img, .home3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 3s ease;
 }
 
 
@@ -314,23 +323,23 @@
     line-height: 1.5vw;
 }
 
-.homes1{
+.homes1, .homes2, .homes3{
     position: absolute;
-    /* overflow: hidden;
-    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1), height 0.6s cubic-bezier(0.16, 1, 0.3, 1)  ; */
     cursor: pointer;
-    /* transition: filter 0.5 ease-in-out;  */
     transition: 0.5s;
 }
 
-.homes1:hover{
-    /* width: 28.06vw;
-    height: 35.14vw; */
+.homes1:hover, .homes3:hover{
     transform: translate(-7vw, 0vw);
     transition: 0.5s;
 }
 
-.hoem1:hover{
-    transform: scale(2);
-
+.homes2:hover{
+    transform: translate(7vw, 0vw);
+    transition: 0.5s;
 }
+
+.home1:hover img, .home2:hover img, .home3:hover img{
+    transform: scale(1.2);
+}
+
