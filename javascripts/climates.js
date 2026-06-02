@@ -21,6 +21,18 @@ document.addEventListener("DOMContentLoaded", function() {
 // });
 
 
+const photos = document.querySelectorAll('.imi');
+
+photos.forEach(photo => {
+  photo.addEventListener('mouseenter', () => {
+    // Убираем big у всех
+    photos.forEach(p => p.classList.remove('big'));
+    // Добавляем big только наведённой
+    photo.classList.add('big');
+  });
+});
+
+
 
 
 });

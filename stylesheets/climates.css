@@ -343,3 +343,14 @@
     transform: scale(1.2);
 }
 
+.imi{
+    object-fit: cover;
+    transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease;
+    cursor: pointer;
+}
+
+.imi.big{
+    transform: scale(1.5);
+    
+}
+
