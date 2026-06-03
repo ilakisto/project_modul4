@@ -607,8 +607,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pears{
     position: absolute;
-    margin-left: 40vw;
-    margin-top: 20vw;
+    margin-left: 44vw;
+    margin-top: 22vw;
     pointer-events: none;
     width: 58.13vw;
     height: 65.59vw;
