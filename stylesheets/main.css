@@ -162,6 +162,10 @@ main > section{
     overflow: hidden;
 }
 
+.img1 > img{
+    width: 1030%;
+}
+
 .grid-cell {
     position: relative;
     overflow: hidden;
@@ -377,6 +381,10 @@ main > section{
     position: absolute;
 }
 
+.sect3{
+    margin-top: -45vw;
+}
+
 .sect2 h1{
     position: absolute;
     margin-top: 15vw;
@@ -387,9 +395,9 @@ main > section{
     /* font-family: "Inter_SemiBold"; */
 }
 
-.sect2 h2{
+.dates{
     position: absolute;
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin-left: 15vw;
     margin-top: 30vw;
     color: #37271A;
@@ -424,22 +432,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: none;
 }
 
-.sect2 a{
-    position: absolute;
-    margin-top: 60vw;
-    margin-left: 20vw;
-    width: 10vw;
-    height: 5vw;
-    background: #37271A;
-}
 
-.sect2 > a > button{
-    text-decoration: none;
-    color: #fff;
-    width: 10vw;
-    height: 5vw;
-    background: #37271A;
-}
 
 .theree{
     position: absolute;
@@ -456,6 +449,177 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #37271A;
     font-size: 1vw;
 }
+
+.adults{
+    position: absolute;
+    margin-top: 46vw;
+    margin-left: 15vw;
+    height: 2.7vw;
+    width: 13.3vw;
+    color: #fff;
+    background: #37271A;
+    border: none;
+}
+
+.adults::placeholder{
+    color: #fff;
+    margin-left: 0.5vw;
+    font-size: 1.2vw;
+}
+
+.guests{
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-top: 43vw;
+    color: #37271A;
+    width: 35vw;
+}
+
+.kids{
+    position: absolute;
+    margin-top: 46.6vw;
+    margin-left: 33vw;
+    height: 2vw;
+    width: 2vw;
+    background: #37271A;
+    border: none;
+}
+
+.kid{
+    position: absolute;
+    color: #37271A;
+    font-size: 1.2vw;
+    margin-top: 47vw;
+    margin-left: 35.7vw;
+    width: 10vw;
+}
+
+
+.climat{
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-top: 54vw;
+    color: #37271A;
+    width: 35vw;
+}
+
+
+.hott{
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 15vw;
+    height: 2vw;
+    width: 2vw;
+    background: #37271A;
+    border: none;
+   
+}
+
+.hottt{
+    position: absolute;
+    color: #37271A;
+    font-size: 1.2vw;
+    margin-top: 57.4vw;
+    margin-left: 18vw;
+    width: 10vw;
+}
+
+.warmm{
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 28vw;
+    height: 2vw;
+    width: 2vw;
+    background: #37271A;
+    border: none;
+}
+
+.warmmm{
+    position: absolute;
+    color: #37271A;
+    font-size: 1.2vw;
+    margin-top: 57.4vw;
+    margin-left: 31vw;
+    width: 10vw;
+}
+
+.coldd{
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 43vw;
+    height: 2vw;
+    width: 2vw;
+    background: #37271A;
+    border: none;
+}
+
+.colddd{
+    position: absolute;
+    color: #37271A;
+    font-size: 1.2vw;
+    margin-top: 57.4vw;
+    margin-left: 46vw;
+    width: 10vw;
+}
+
+
+.home{
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-top: 64vw;
+    color: #37271A;
+    width: 35vw;
+}
+
+.sect2 > select{
+    position: absolute;
+    margin-top: 67vw;
+    margin-left: 15vw;
+    height: 2.7vw;
+    width: 13.3vw;
+    color: #fff;
+    background: #37271A;
+    border: none;
+}
+
+
+
+.sect2 a{
+    position: absolute;
+    margin-top: 76vw;
+    margin-left: 15vw;
+    width: 10vw;
+    height: 3vw;
+    background: #37271A;
+}
+
+.sect2 > a > button{
+    text-decoration: none;
+    color: #fff;
+    width: 10vw;
+    height: 3vw;
+    background: #37271A;
+    font-size: 1.2vw;
+}
+
+.pears{
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 20vw;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -495,12 +659,29 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .sec404 h2{
     position: absolute;
-    margin-top: 34vw;
+    margin-top: 34.5vw;
     margin-left: 38.5vw;
     font-size: 2vw;
     font-family: "Inter_SemiBold";
     z-index: 101;
     color: #fff;
+}
+
+.sec404 > a{
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 41vw;
+    z-index: 1000;
+}
+
+.sec404 > a > button{
+    
+    height: 3vw;
+    width: 16vw;
+    color: #fff;
+    background: #37271A;
+    border: none;
+    font-size: 1.2vw;
 }
 
 
