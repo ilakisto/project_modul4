@@ -59,7 +59,6 @@
     margin-left: 40.2vw;
     width: 21.94vw;
     height: 24.58vw;
-    background: #224b2e;
 }
 
 .section4{
@@ -72,7 +71,6 @@
     margin-left: 23.5vw;
     width: 16.67vw;
     height: 13.68vw;
-    background: #224b2e;
 }
 
 .timg{
@@ -81,7 +79,6 @@
     margin-left: 7vw;
     width: 16.67vw;
     height: 16.39vw;
-    background: #224b2e;
 }
 
 .foimg{
@@ -90,7 +87,6 @@
     margin-left: 62.2vw;
     width: 11.39vw;
     height: 15.21vw;
-    background: #224b2e;
 }
 
 .fiimg{
@@ -99,7 +95,6 @@
     margin-left: 73.5vw;
     width: 16.67vw;
     height: 11.74vw;
-    background: #224b2e;
 }
 
 .section3 h2{
@@ -342,15 +337,3 @@
 .home1:hover img, .home2:hover img, .home3:hover img{
     transform: scale(1.2);
 }
-
-.imi{
-    object-fit: cover;
-    transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease;
-    cursor: pointer;
-}
-
-.imi.big{
-    transform: scale(1.5);
-    
-}
-
