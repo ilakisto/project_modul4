@@ -34,6 +34,10 @@ body{
     line-height: 1.7vw;
 }
 
+.minitexts {
+    transition: opacity 0.2s ease;
+}
+
 .name{
     position: absolute;
     font-size: 8vw;
@@ -139,7 +143,7 @@ main > section{
 
 
 
-.s1, .s2, .s3{
+.s1, .s2, .s3, .s4{
     height: 100vh;
     scroll-snap-align: start;
     display: flex;
@@ -365,6 +369,21 @@ main > section{
 
 .wg:hover, .wd:hover, .we:hover{
     transform: scale(1.05);
+}
+
+
+
+
+.s4 > .book{
+    margin-top: 13vw;
+}
+
+.s4 > .footer{
+    margin-top: 36vw;
+}
+
+.s4 > .footer > h1{
+    display: none;
 }
 
 

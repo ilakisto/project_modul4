@@ -1,5 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+const fixedText = document.querySelector('.minitexts');
+const target = document.querySelector('.s4');
+const mainEl = document.querySelector('main');
+
+mainEl.addEventListener('scroll', () => {
+    const targetTop = target.getBoundingClientRect().top;
+    
+    if (targetTop <= window.innerHeight) {
+        fixedText.style.opacity = '0';
+    } else {
+        fixedText.style.opacity = '1';
+    }
+});
+
+
+
+
+
 
 let links = document.querySelectorAll('.option-list a');
 
@@ -21,6 +39,38 @@ endDate.min = startDate.value;
     endDate.value = '';
   }
 });
+
+
+
+// const fixedText = document.querySelector('.minitexts');
+// const target = document.querySelector('.s4');
+
+// const observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             fixedText.style.opacity = '0';
+//         } else {
+//             fixedText.style.opacity = '1';
+//         }
+//     });
+// });
+
+// observer.observe(target);
+
+
+// const fixedText = document.querySelector('.minitexts');
+// const target = document.querySelector('.s4');
+
+// window.addEventListener('scroll', () => {
+//     const targetTop = target.getBoundingClientRect().top;
+    
+//     if (targetTop <= window.innerHeight) {
+//         fixedText.style.opacity = '0';
+//     } else {
+//         fixedText.style.opacity = '1';
+//     }
+// });
+
 
 
 
