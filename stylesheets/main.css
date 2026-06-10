@@ -728,7 +728,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-top: 34.5vw;
     margin-left: 37vw;
     font-size: 2vw;
-    font-family: "Inter_SemiBold";
     z-index: 101;
     color: #fff;
 }
@@ -752,7 +751,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .sec404 > a > button:hover{
     transform: scale(1.1);
-    transition: 0.5s ease;
+    transition: 0.5s ease-in-out;
 }
 
 .sec4044{
