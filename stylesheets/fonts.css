@@ -1,39 +1,43 @@
 @font-face {
-    font-family: "Inter_Regular";
-    src: url("../fonts/Inter_Regular.ttf");
+    font-family: "EvenMono";
+    src: url("../fonts/EvenMono.otf");
     font-weight: 400;
     font-style: normal;
 }
 
 p{
-     font-family: "Inter_Regular";
+     font-family: "EvenMono";
 }
 
 @font-face {
     font-family: "Inter_SemiBold";
-    src: url("../fonts/Inter_SemiBold.ttf");
+    src: url("../fonts/EvenMono.otf");
     font-weight: 500;
     font-style: normal;
 }
 
 h2{
-    font-family: "Inter_SemiBold";
+    font-family: "EvenMono";
 }
 
 @font-face {
-    font-family: "Inter_Medium";
-    src: url("../fonts/Inter_Medium.ttf");
+    font-family: "EvenMono";
+    src: url("../fonts/EvenMono.otf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Oswald-Regular";
-    src: url("../fonts/Oswald-Regular.ttf");
+    font-family: "EvenMono";
+    src: url("../fonts/EvenMono.otf");
     font-weight: 400;
     font-style: normal;
 }
 
 h1{
-    font-family: "Oswald-Regular";
+    font-family: "EvenMono";
+}
+
+button{
+    font-family: "EvenMono";
 }

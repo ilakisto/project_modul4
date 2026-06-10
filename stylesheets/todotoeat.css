@@ -3,6 +3,10 @@
     width: 100%;
 } 
 
+.tp{
+    margin-top: -15vw;
+}
+
 .fp h1{
     position: absolute;
     font-size: 8vw;

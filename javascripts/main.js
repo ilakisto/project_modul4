@@ -4,7 +4,7 @@ const fixedText = document.querySelector('.minitexts');
 const target = document.querySelector('.s4');
 const mainEl = document.querySelector('main');
 
-mainEl.addEventListener('scroll', () => {
+mainEl.addEventListener('scroll', function(){
     const targetTop = target.getBoundingClientRect().top;
     
     if (targetTop <= window.innerHeight) {
@@ -30,7 +30,6 @@ links.forEach(function(link){
 
 
 
-
 let startDate = document.querySelector(".there");
 let endDate = document.querySelector(".back");
 startDate.addEventListener('change', function(){
@@ -39,39 +38,6 @@ endDate.min = startDate.value;
     endDate.value = '';
   }
 });
-
-
-
-// const fixedText = document.querySelector('.minitexts');
-// const target = document.querySelector('.s4');
-
-// const observer = new IntersectionObserver((entries) => {
-//     entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//             fixedText.style.opacity = '0';
-//         } else {
-//             fixedText.style.opacity = '1';
-//         }
-//     });
-// });
-
-// observer.observe(target);
-
-
-// const fixedText = document.querySelector('.minitexts');
-// const target = document.querySelector('.s4');
-
-// window.addEventListener('scroll', () => {
-//     const targetTop = target.getBoundingClientRect().top;
-    
-//     if (targetTop <= window.innerHeight) {
-//         fixedText.style.opacity = '0';
-//     } else {
-//         fixedText.style.opacity = '1';
-//     }
-// });
-
-
 
 
 });
