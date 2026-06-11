@@ -180,7 +180,7 @@ body{
     margin-left: 35vw;
     margin-top: -20vw;
     color: #ffff;
-    z-index: 200;
+    
 }
 
 .book button{
@@ -188,11 +188,11 @@ body{
     margin-top: 16vw;
     margin-left: -60vw;
     width: 18.96vw;
-    height: 3.75vw;
+    height: 3vw;
     font-size: 1.5vw;
-    background: #ffff;
-    color: #37271A;
-    z-index: 201;
+    background: #6F8E52;
+    color: #ffff;
+  
 }
 
 .book > button > a{

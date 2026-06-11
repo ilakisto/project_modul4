@@ -40,7 +40,7 @@
     line-height: 2vw;
     margin-top: 70vw;
     margin-left: 6vw;
-    width: 27vw;
+    width: 30vw;
 }
 
 .h22{
@@ -50,7 +50,7 @@
     line-height: 2vw;
     margin-top: 70vw;
     margin-left: 67vw;
-    width: 27vw;
+    width: 29vw;
 }
 
 .fimg{
@@ -114,8 +114,7 @@
     font-size: 1.5vw;
     margin-top: 131vw;
     margin-left: 6vw;
-    width: 32vw;
-    font-family: "Inter_Regular";
+    width: 34vw;
     line-height: 1.7vw;
 }
 
@@ -132,8 +131,7 @@
     position: absolute;
     margin-top: 142vw;
     margin-left: 75vw;
-    width: 12vw;
-    font-family: "Inter_Regular";
+    width: 14vw;
     line-height: 1.5vw;
 }
 
@@ -142,7 +140,6 @@
     margin-top: 146vw;
     margin-left: 75vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -160,7 +157,6 @@
     margin-top: 182.1vw;
     margin-left: 48vw;
     width: 15vw;
-    font-family: "Inter_Regular";
     line-height: 1.5vw;
 }
 
@@ -169,7 +165,6 @@
     margin-top: 186vw;
     margin-left: 48vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -186,8 +181,7 @@
     position: absolute;
     margin-top: 222.3vw;
     margin-left: 32vw;
-    width: 11.5vw;
-    font-family: "Inter_Regular";
+    width: 12.5vw;
     line-height: 1.5vw;
 }
 
@@ -196,7 +190,6 @@
     margin-top: 226vw;
     margin-left: 32vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -212,8 +205,7 @@
     position: absolute;
     margin-top: 142vw;
     margin-left: 75vw;
-    width: 15vw;
-    font-family: "Inter_Regular";
+    width: 16vw;
     line-height: 1.5vw;
 }
 
@@ -221,8 +213,7 @@
     position: absolute;
     margin-top: 146vw;
     margin-left: 75vw;
-    width: 12vw;
-    font-family: "Inter_Medium";
+    width: 9vw;
     line-height: 1.5vw;
 }
 
@@ -231,7 +222,7 @@
     margin-top: 182.1vw;
     margin-left: 48vw;
     width: 18vw;
-    font-family: "Inter_Regular";
+
     line-height: 1.5vw;
 }
 
@@ -240,7 +231,6 @@
     margin-top: 186vw;
     margin-left: 48vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -248,18 +238,16 @@
 .small33{
     position: absolute;
     margin-top: 222.3vw;
-    margin-left: 29vw;
-    width: 16vw;
-    font-family: "Inter_Regular";
+    margin-left: 28vw;
+    width: 17vw;
     line-height: 1.5vw;
 }
 
 .price33{
     position: absolute;
     margin-top: 226vw;
-    margin-left: 29vw;
+    margin-left: 28vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -268,7 +256,6 @@
     margin-top: 142vw;
     margin-left: 75vw;
     width: 17vw;
-    font-family: "Inter_Regular";
     line-height: 1.5vw;
 }
 
@@ -277,7 +264,6 @@
     margin-top: 146vw;
     margin-left: 75vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -286,7 +272,6 @@
     margin-top: 182.1vw;
     margin-left: 48vw;
     width: 17.5vw;
-    font-family: "Inter_Regular";
     line-height: 1.5vw;
 }
 
@@ -295,7 +280,6 @@
     margin-top: 186vw;
     margin-left: 48vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 
@@ -305,7 +289,6 @@
     margin-top: 222.3vw;
     margin-left: 32vw;
     width: 11.5vw;
-    font-family: "Inter_Regular";
     line-height: 1.5vw;
 }
 
@@ -314,7 +297,6 @@
     margin-top: 226vw;
     margin-left: 32vw;
     width: 12vw;
-    font-family: "Inter_Medium";
     line-height: 1.5vw;
 }
 

@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const overlay = document.getElementById('popupOverlay');
 
   if (overlay) {
-    document.querySelector('.openbtn').addEventListener('click', function(){
-      overlay.classList.add('open');
+    document.querySelectorAll('.openbtn').forEach(function(btn) {
+      btn.addEventListener('click', function(){
+        overlay.classList.add('open');
+      });
     });
 
     document.getElementById('popupClose').addEventListener('click', function(){
