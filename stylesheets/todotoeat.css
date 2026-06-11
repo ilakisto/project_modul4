@@ -23,7 +23,6 @@
     margin-left: 0.5vw;
     width: 29vw;
     font-size: 1.5vw;
-    font-family: "Inter_Medium";
     line-height: 1.7vw;
 }
 
@@ -57,7 +56,6 @@
     margin-left: 8vw;
     font-size: 1.5vw;
     color: #37271A;
-    font-family: "Inter_SemiBold";
 }
 
 .fishing{
@@ -74,7 +72,6 @@
     margin-left: 35vw;
     font-size: 1.5vw;
     color: #37271A;
-    font-family: "Inter_SemiBold";
 }
 
 .vegetables{
@@ -92,7 +89,6 @@
     font-size: 1.5vw;
     color: #37271A;
     width: 13vw;
-    font-family: "Inter_SemiBold";
 }
 
 .bathhous, .fishin, .vegetable{

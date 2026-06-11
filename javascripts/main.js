@@ -15,7 +15,23 @@ mainEl.addEventListener('scroll', function(){
 });
 
 
+const overlay = document.getElementById('popupOverlay');
 
+  document.querySelector('.openbtn').addEventListener('click', function(){
+    overlay.classList.add('open');
+  });
+
+  document.getElementById('popupClose').addEventListener('click', function(){
+    overlay.classList.remove('open');
+  });
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.classList.remove('open');
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') overlay.classList.remove('open');
+  });
 
 
 
@@ -42,23 +58,7 @@ endDate.min = startDate.value;
 
 
 
-const overlay = document.getElementById('popupOverlay');
 
-  document.querySelector('.openbtn').addEventListener('click', function(){
-    overlay.classList.add('open');
-  });
-
-  document.getElementById('popupClose').addEventListener('click', function(){
-    overlay.classList.remove('open');
-  });
-
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) overlay.classList.remove('open');
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') overlay.classList.remove('open');
-  });
 
 
 });
