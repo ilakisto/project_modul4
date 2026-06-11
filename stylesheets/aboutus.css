@@ -79,7 +79,7 @@
 .sthird h2{
     margin-top: 97vw;
     margin-left: 7vw;
-    width: 60vw;
+    width: 50vw;
     
 }
 
@@ -151,18 +151,18 @@
 
 .footer h1{
     font-size: 8vw;
-    margin-top: 11vw;
-    margin-left: 0.5vw;
+    margin-top: 12vw;
+    margin-left: 8.5vw;
     margin-bottom: 0.2vw;
     color: #37271A;
 }
 
 .footer img{
     position: absolute;
-    width: 4vw;
-    height: 2.5vw;
-    margin-top: 15vw;
-    margin-left: 27vw;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 12.8vw;
+    margin-left: 1vw;
 }
 
 .navig{

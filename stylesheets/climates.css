@@ -200,6 +200,13 @@
     transition: transform 3s ease;
 }
 
+.homes1 p, .homes2 p, .homes3 p{
+    font-size: 1.1vw;
+}
+
+.homes1 h3, .homes2 h3, .homes3 h3{
+    font-size: 1.2vw;
+}
 
 .small11{
     position: absolute;
@@ -271,7 +278,7 @@
     position: absolute;
     margin-top: 182.1vw;
     margin-left: 48vw;
-    width: 17.5vw;
+    width: 19vw;
     line-height: 1.5vw;
 }
 
@@ -279,7 +286,7 @@
     position: absolute;
     margin-top: 186vw;
     margin-left: 48vw;
-    width: 12vw;
+    width: 14vw;
     line-height: 1.5vw;
 }
 
