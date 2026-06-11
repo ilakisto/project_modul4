@@ -71,7 +71,7 @@ main > section{
     margin-right: 1vw;
     background: #FFFDF9;
     width: 100%;
-    height: 2vw;
+    height: 2.5vw;
     padding: 1.2vw;
     align-items: center;
     z-index: 200;
@@ -81,9 +81,9 @@ main > section{
 
 .logot{
     margin-left: -1vw;
-    margin-top: 4.5vw;
-    width: 15vw;
-    height: 7vw;
+    margin-top: 5vw;
+    width: 8vw;
+    height: 8vw;
 }
 
 .menubar a img{
@@ -753,11 +753,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     margin-top: -85vw;
     
-}
-
-.logot{
-    margin-left: -1vw;
-    margin-top: 4.5vw;
-    width: 15vw;
-    height: 7vw;
 }
