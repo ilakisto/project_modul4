@@ -663,10 +663,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .sect2 > a > button{
     text-decoration: none;
+    background: #6F8E52;
+    height: 2.5vw;
+    width: 15vw;
+    cursor: pointer;
     color: #fff;
-    width: 10vw;
-    height: 3vw;
-    background: #37271A;
     font-size: 1.2vw;
     border: none;
     margin-bottom: 3vw;
@@ -742,11 +743,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background: #37271A;
     border: none;
     font-size: 1.2vw;
+    transition: transform 0.3s ease-in-out;
 }
 
 .sec404 > a > button:hover{
     transform: scale(1.1);
-    transition: 0.5s ease-in-out;
 }
 
 .sec4044{
