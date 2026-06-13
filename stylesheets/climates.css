@@ -55,10 +55,30 @@
 
 .fimg{
     position: absolute;
-    margin-top: 77.3vw;
-    margin-left: 40.2vw;
-    width: 21.94vw;
-    height: 24.58vw;
+    margin-top: 83.5vw;
+    margin-left: 42.2vw;
+    width: 16.39vw;
+    height: 18.33vw;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(70%);
+}
+
+.fimg:hover,.timg:hover {
+    transform: scale(1.3) translate(0vw, -2vw);
+    transition: 0.5s;
+    filter: none ;
+}
+
+.simg:hover, .foimg:hover{
+    transform: scale(1.3) translate(0vw, 1.5vw);
+    transition: 0.5s;
+    filter: none ;
+}
+
+.fiimg:hover{
+    transform: scale(1.3) translate(0vw, -1.5vw);
+    transition: 0.5s;
+    filter: none ;
 }
 
 .section4{
@@ -68,33 +88,41 @@
 .simg{
     position: absolute;
     margin-top: 102.7vw;
-    margin-left: 23.5vw;
+    margin-left: 25.5vw;
     width: 16.67vw;
     height: 13.68vw;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(70%);
 }
 
 .timg{
     position: absolute;
     margin-top: 85.5vw;
-    margin-left: 7vw;
+    margin-left: 9vw;
     width: 16.67vw;
     height: 16.39vw;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(70%);
 }
 
 .foimg{
     position: absolute;
     margin-top: 102.7vw;
-    margin-left: 62.2vw;
+    margin-left: 58.8vw;
     width: 11.39vw;
     height: 15.21vw;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(70%);
 }
 
 .fiimg{
     position: absolute;
     margin-top: 90.1vw;
-    margin-left: 73.5vw;
+    margin-left: 70.2vw;
     width: 16.67vw;
     height: 11.74vw;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(70%);
 }
 
 .section3 h2{
