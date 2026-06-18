@@ -82,16 +82,16 @@
 
 .fishing{
     position: absolute;
-    width: 27.22vw;
-    height: 15.69vw;
-    margin-top: 74vw;
-    margin-left: 35vw;
+    width: 23.22vw;
+    height: 17.69vw;
+    margin-top: 72vw;
+    margin-left: 37vw;
 }
 
 .fishing1{
     position: absolute;
     margin-top: 90vw;
-    margin-left: 35vw;
+    margin-left: 37vw;
     font-size: 1.5vw;
     color: #37271A;
 }
