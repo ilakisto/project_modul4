@@ -38,6 +38,21 @@ body{
     transition: opacity 0.2s ease;
 }
 
+.g1120{
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 4vw;
+    width: 26.33vw;
+    height: 28.64vw;
+}
+
+
+
+.g1120 img{
+    width: 26.33vw;
+    height: 28.64vw;
+}
+
 .name{
     position: absolute;
     font-size: 8vw;
@@ -277,6 +292,15 @@ main > section{
 
 }
 
+.g1118{
+    position: absolute;
+    margin-top: -1.5vw;
+    margin-left: 77vw;
+    width: 23.72vw;
+    height: 31.16vw;
+}
+
+
 .abs{
     transition: 0.4s ease-out;
     cursor: pointer;
@@ -421,6 +445,15 @@ main > section{
 
 .wg:hover, .wd:hover, .we:hover{
     transform: scale(1.05);
+}
+
+.g1119{
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 70vw;
+    width: 32.38vw;
+    height: 27.47vw;
+    z-index: -20;
 }
 
 
