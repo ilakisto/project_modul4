@@ -58,6 +58,29 @@ document.addEventListener("DOMContentLoaded", function() {
         endDate.value = '';
       }
     });
+  };
+
+
+
+
+   const radios = document.querySelectorAll('input[name="group1"]');
+  const select = document.getElementById('houseSelect');
+  const options = document.querySelectorAll('option[data-group]');
+ 
+  function filterOptions(selectedGroup) {
+    options.forEach(opt => {
+      const matches = opt.dataset.group === selectedGroup;
+      opt.hidden = !matches;
+      opt.disabled = !matches; // на всякий случай, чтобы нельзя было выбрать клавиатурой
+    });
+    // сбрасываем select на placeholder, чтобы не остался выбранный, но скрытый вариант
+    select.value = '';
   }
+ 
+  radios.forEach(radio => {
+    radio.addEventListener('change', () => {
+      filterOptions(radio.value);
+    });
+  });
 
 });
