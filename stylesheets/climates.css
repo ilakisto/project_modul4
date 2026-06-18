@@ -19,9 +19,9 @@
     font-size: 1.5vw;
     margin-top: 27vw;
     margin-left: 0.5vw;
-    width: 28vw;
-    font-family: "Inter_Regular";
+    width: 30vw;
     line-height: 1.7vw;
+    font-family: "EvenMono";
 }
 
 .section1 img{
@@ -144,6 +144,7 @@
     margin-left: 6vw;
     width: 34vw;
     line-height: 1.7vw;
+
 }
 
 .home1{

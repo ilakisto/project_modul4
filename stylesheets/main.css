@@ -31,6 +31,7 @@ body{
     color: #37271A;
     z-index: 101;
     line-height: 1.7vw;
+    font-family: "EvenMono";
 }
 
 .minitexts {
@@ -370,7 +371,6 @@ main > section{
     width: 16.67vw;
     text-decoration: none;
     color: #37271A;
-    font-family: "Inter_SemiBold";
 }
 
 .whattodo{
@@ -403,7 +403,6 @@ main > section{
     width: 21.94vw;
     text-decoration: none;
     color: #37271A;
-    font-family: "Inter_SemiBold";
 }
 
 .wheretoeat{
@@ -530,7 +529,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #fff;
     margin-left: 0.5vw;
     font-size: 1.2vw;
-    font-family: "EvenMono";
+    font-family: "GeistMono";
 }
 
 .guests{
@@ -548,8 +547,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: 20vw;
     height: 2vw;
     width: 2vw;
-    background: #37271A;
     border: none;
+    accent-color: #37271A;
 }
 
 .kid{
@@ -578,7 +577,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: 2vw;
     height: 2vw;
     width: 2vw;
-    background: #37271A;
+    accent-color: #37271A;
     border: none;
    
 }
@@ -598,7 +597,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: 15vw;
     height: 2vw;
     width: 2vw;
-    background: #37271A;
+    accent-color: #37271A;
     border: none;
 }
 
@@ -617,7 +616,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: 30vw;
     height: 2vw;
     width: 2vw;
-    background: #37271A;
+    accent-color: #37271A;
     border: none;
 }
 

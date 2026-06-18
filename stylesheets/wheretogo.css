@@ -50,10 +50,10 @@ body{
     color: #37271A;
     margin-top: -30vw;
     margin-left: 0.5vw;
-    width: 19vw;
+    width: 22vw;
     font-size: 1.5vw;
-    font-family: "Inter_Medium";
     line-height: 1.7vw;
+    font-family: "EvenMono";
 }
 
 
@@ -236,7 +236,6 @@ body{
     color: #37271A;
     font-size: 1.3vw;
     margin-left: 38vw;
-    font-family: "Inter_Regular";
     line-height: 1.7vw;
 }
 

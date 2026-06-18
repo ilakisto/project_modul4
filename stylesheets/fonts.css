@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "EvenMono";
-    src: url("../fonts/EvenMono.otf");
+    font-family: "GeistMono";
+    src: url("../fonts/GeistMono_regular.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 p{
-     font-family: "EvenMono";
+     font-family: "GeistMono";
 }
 
 @font-face {
@@ -39,5 +39,5 @@ h1{
 }
 
 button{
-    font-family: "EvenMono";
+    font-family: "GeistMono";
 }
