@@ -11,6 +11,20 @@ body{
 }
 
 
+
+.reveal {
+    opacity: 0;
+    transform: translateY(2vw);
+    transition: opacity 1.3s ease, transform 1.3s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+  
 .fixed{
     position: fixed;
     left: 0;

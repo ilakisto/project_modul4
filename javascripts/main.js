@@ -16,6 +16,22 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
+
+  const fixedG = document.querySelector('.g1120');
+  const targets = document.querySelector('.s4');
+  const mainE = document.querySelector('main');
+
+  if (fixedG && targets && mainE) {
+    mainE.addEventListener('scroll', function(){
+      const targetsTop = targets.getBoundingClientRect().top;
+      if (targetsTop <= window.innerHeight) {
+        fixedG.style.opacity = '0';
+      } else {
+        fixedG.style.opacity = '1';
+      }
+    });
+  }
+
   // попап
   const overlay = document.getElementById('popupOverlay');
 
@@ -82,5 +98,22 @@ document.addEventListener("DOMContentLoaded", function() {
       filterOptions(radio.value);
     });
   });
+
+
+  
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible'); // показываем
+        observer.unobserve(entry.target);       // чтобы не повторялось при обратном скролле
+      }
+    });
+  }, {
+    threshold: 0.2 // элемент должен показаться хотя бы на 20%, чтобы сработало
+  });
+ 
+  // подключаем наблюдатель ко всем .reveal-элементам на странице
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 });
