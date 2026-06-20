@@ -105,15 +105,14 @@ document.addEventListener("DOMContentLoaded", function() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('visible'); // показываем
-        observer.unobserve(entry.target);       // чтобы не повторялось при обратном скролле
-      }
+        entry.target.classList.add('visible');    
+      } else {
+        entry.target.classList.remove('visible');  
+      }                                              
     });
-  }, {
-    threshold: 0.2 // элемент должен показаться хотя бы на 20%, чтобы сработало
-  });
+  }, 
+  {threshold: 0.2 });
  
-  // подключаем наблюдатель ко всем .reveal-элементам на странице
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 });

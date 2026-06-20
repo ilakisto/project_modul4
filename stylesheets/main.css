@@ -24,7 +24,7 @@ body{
 
 
 
-  
+
 .fixed{
     position: fixed;
     left: 0;
@@ -52,7 +52,7 @@ body{
     transition: opacity 0.2s ease;
 }
 
-.g1120{
+/* .g1120{
     position: absolute;
     margin-top: 12vw;
     margin-left: 4vw;
@@ -65,7 +65,7 @@ body{
 .g1120 img{
     width: 26.33vw;
     height: 28.64vw;
-}
+} */
 
 .name{
     position: absolute;
@@ -305,14 +305,14 @@ main > section{
     line-height: 1.4vw;
 
 }
-
+/* 
 .g1118{
     position: absolute;
     margin-top: -1.5vw;
     margin-left: 77vw;
     width: 23.72vw;
     height: 31.16vw;
-}
+} */
 
 
 .abs{
@@ -461,14 +461,14 @@ main > section{
     transform: scale(1.05);
 }
 
-.g1119{
+/* .g1119{
     position: absolute;
     margin-top: 30vw;
     margin-left: 70vw;
     width: 32.38vw;
     height: 27.47vw;
     z-index: -20;
-}
+} */
 
 
 
@@ -778,7 +778,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     margin-top: 38vw;
     margin-left: 39vw;
-    z-index: 1000;
+    z-index: 3;
 }
 
 .sec404 > a > button{
