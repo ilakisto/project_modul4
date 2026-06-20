@@ -87,9 +87,8 @@ document.addEventListener("DOMContentLoaded", function() {
     options.forEach(opt => {
       const matches = opt.dataset.group === selectedGroup;
       opt.hidden = !matches;
-      opt.disabled = !matches; // на всякий случай, чтобы нельзя было выбрать клавиатурой
+      opt.disabled = !matches;
     });
-    // сбрасываем select на placeholder, чтобы не остался выбранный, но скрытый вариант
     select.value = '';
   }
  
