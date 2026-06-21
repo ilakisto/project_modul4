@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  // исчезание минитекста
+  // исчезание текста
   const fixedText = document.querySelector('.minitexts');
   const target = document.querySelector('.s4');
   const mainEl = document.querySelector('main');
@@ -16,21 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-
-  const fixedG = document.querySelector('.g1120');
-  const targets = document.querySelector('.s4');
-  const mainE = document.querySelector('main');
-
-  if (fixedG && targets && mainE) {
-    mainE.addEventListener('scroll', function(){
-      const targetsTop = targets.getBoundingClientRect().top;
-      if (targetsTop <= window.innerHeight) {
-        fixedG.style.opacity = '0';
-      } else {
-        fixedG.style.opacity = '1';
-      }
-    });
-  }
 
   // попап
   const overlay = document.getElementById('popupOverlay');
@@ -78,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+// опредеменные дома при выборе климата
    const radios = document.querySelectorAll('input[name="group1"]');
   const select = document.getElementById('houseSelect');
   const options = document.querySelectorAll('option[data-group]');
@@ -100,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   
-
+// все элементы!!!
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
