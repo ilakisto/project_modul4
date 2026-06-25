@@ -310,14 +310,6 @@ main > section{
     line-height: 1.4vw;
 
 }
-/* 
-.g1118{
-    position: absolute;
-    margin-top: -1.5vw;
-    margin-left: 77vw;
-    width: 23.72vw;
-    height: 31.16vw;
-} */
 
 
 .abs{
@@ -465,15 +457,6 @@ main > section{
 .wg:hover, .wd:hover, .we:hover{
     transform: scale(1.05);
 }
-
-/* .g1119{
-    position: absolute;
-    margin-top: 30vw;
-    margin-left: 70vw;
-    width: 32.38vw;
-    height: 27.47vw;
-    z-index: -20;
-} */
 
 
 
